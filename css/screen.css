@@ -203,8 +203,25 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
 /* ===== MODULAR STYLES ===== */
-
 /* ===== STATE STYLES ======= */
+/*.hasjs class will only exist if javascript runs*/
+.hasjs #input-email {
+  position: relative;
+}
 
+.hasjs #input-email label {
+  transition: top 1s;
+  top: 24px;
+  left: 19px;
+  position: absolute;
+}
+
+.hasjs #input-email label.active {
+  top: -20px;
+}
+
+.hasjs #age-verification {
+  position: static;
+  left: 6000px;
+}
