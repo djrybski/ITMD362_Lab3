@@ -208,6 +208,10 @@ h1{
   font-family: 'Bree Serif', serif;
 }
 
+p {
+	text-align: center;
+}
+
 /* ===== LAYOUT STYLES ====== */
 input {
   box-sizing: border-box;
@@ -215,7 +219,6 @@ input {
   height: 55px;
   padding: 30px;
   border: 0;
-  border-radius: 0;
   font-family: 'Source Serif Pro', serif;
   background-color: #C0C0C0;
   
