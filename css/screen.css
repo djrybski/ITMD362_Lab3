@@ -241,7 +241,33 @@ input[type="checkbox"]{
   display: inline;
 }
 
+@media screen and (max-width: 480px) {
+	body, html {
+	min-height:100%;
+	}
+
+  input[type="submit"], input[type="email"] {
+    font-size: 6vw;
+    width: 100%;
+
+  }
+}
+
 /* ===== MODULAR STYLES ===== */
+form li {
+  padding: 0.7em;
+}
+
+h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+p {
+  font-size: 1.0em;
+  padding: 0.6em;
+}
+
+
 /* ===== STATE STYLES ======= */
 /*.hasjs class will only exist if javascript runs*/
 .hasjs #input-email {
