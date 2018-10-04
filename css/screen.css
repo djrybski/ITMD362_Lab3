@@ -277,12 +277,12 @@ p {
 .hasjs #input-email label {
   transition: top 1s;
   top: 24px;
-  left: 19px;
+  left: 35px;
   position: absolute;
 }
 
 .hasjs #input-email label.active {
-  top: -20px;
+  top: -10px;
 }
 
 .hasjs #age-verification {
