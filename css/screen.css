@@ -192,7 +192,7 @@ img, audio, video {
 */
 
 html {
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Bree Serif', serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -206,12 +206,12 @@ label {
 
 h1{
   text-align: center;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Sigmar One', cursive;
 }
 
 p {
 	text-align: center;
-	font-family: 'Crete Round', serif;
+	font-family: 'Audiowide', cursive;
 }
 
 /* ===== LAYOUT STYLES ====== */
@@ -221,7 +221,7 @@ input {
   height: 55px;
   padding: 30px;
   border: 0;
-  font-family: 'Source Serif Pro', serif;
+  font-family: 'Crete Round', serif;
   background-color: #C0C0C0;
   text-align: center;
   
