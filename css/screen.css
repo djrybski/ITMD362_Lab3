@@ -229,10 +229,7 @@ input {
   margin: auto;
 }
 
-#input-email, #input-submit{
-  width: 80%;
-  margin: auto;
-}
+
 
 input[type="checkbox"]{
   width: auto;
@@ -249,6 +246,7 @@ input[type="checkbox"]{
   input[type="submit"], input[type="email"] {
     font-size: 6vw;
     width: 100%;
+	text-align: center;
 
   }
 }
