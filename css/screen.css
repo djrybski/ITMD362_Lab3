@@ -199,9 +199,13 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-
 label {
   display: block;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Bree Serif', serif;
 }
 
 /* ===== LAYOUT STYLES ====== */
