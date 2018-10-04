@@ -192,11 +192,13 @@ img, audio, video {
 */
 
 html {
+  font-family: 'Source Serif Pro', serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
+
 
 label {
   display: block;
